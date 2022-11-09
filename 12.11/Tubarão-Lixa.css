@@ -1,0 +1,36 @@
+nav {
+    background: #000000;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    position: -webkit-sticky;
+    z-index: 999;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner > .carousel-item > img {
+    border: 2px solid green;
+    height: 920px;
+    width: 75%;
+    margin: auto;
+    position:static 
+}
